@@ -1,4 +1,4 @@
-# sassy-rey
+# sassy-rey [![Build Status](https://travis-ci.org/rey/sassy-rey.svg?branch=master)](https://travis-ci.org/rey/sassy-rey)
 
 These are a collection of `sass` mixins and functions that I use on the regular.
 
