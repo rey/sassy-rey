@@ -8,7 +8,7 @@ These are a collection of `sass` mixins and functions that I use on the regular.
 
 ```
 body
-  // default `background-color` is pink
+  // Default `background-color` is pink
   background-color: pink
   // from the `sm` breakpoint upwards turn orange!
   +breakpoint(sm)
@@ -30,7 +30,7 @@ body
 
 ```
 .box
-  // give the `.box` a box-shadow with `5px` horizontal offset, `10px` vertical
+  // Give the `.box` a box-shadow with `5px` horizontal offset, `10px` vertical
   // offset, `15px` blur, `20px` spread with a colour of red
   +box-shadow(5px, 10px, 15px, 20px, red)
 ```
@@ -51,7 +51,7 @@ body
 
 ```
 .box
-  // wow such gradient!
+  // Wow such gradient!
   +background-gradient-top-to-bottom(pink, red)
   height: 100px
   width: 100px
@@ -68,7 +68,7 @@ body
 
 ```
 body
-  // so smooth!
+  // So smooth!
   +font-smoothing
 ```
 
@@ -76,7 +76,7 @@ body
 
 ```
 input[type=text]
-  // turn the placeholder text `red`
+  // Turn the placeholder text `red`
   +input-placeholder
     color: red
 ```
@@ -86,7 +86,7 @@ input[type=text]
 
 ```
 .box
-  // woo outline `.box` with a `red` er, outline!
+  // Woo outline `.box` with a `red` er, outline!
   +o
 ```
 
@@ -94,7 +94,7 @@ input[type=text]
 
 ```
 .box
-  // woo make the `background-color` of `.box` `red`
+  // Woo make the `background-color` of `.box` `red`
   +b
 ```
 
@@ -102,7 +102,7 @@ input[type=text]
 
 ```
 h1
-  // give the `h1` a text-shadow with `5px` horiontal offset, `10px` vertical
+  // Give the `h1` a text-shadow with `5px` horiontal offset, `10px` vertical
   // offset, `15px` blur with a colour of `red`
   +text-shadow(5px, 10px, 15px, red)
 ```
@@ -113,7 +113,7 @@ h1
 
 ```
 .box
-  // make the background `red` with an opacity of 0.5! Cheers!
+  // Make the background `red` with an opacity of 0.5! Cheers!
   background-color: opaque(red, 0.5)
 ```
 
@@ -121,7 +121,7 @@ h1
 
 ```
 .box
-  // woo give the `background-color` of `.box` a 10% shade
+  // Woo give the `background-color` of `.box` a 10% shade
   background-color: shade(red, 10%)
 ```
 
@@ -129,6 +129,6 @@ h1
 
 ```
 .box
-  // woo give the `background-color` of `.box` a 10% tint
+  // Woo give the `background-color` of `.box` a 10% tint
   background-color: tint(red, 10%)
 ```
