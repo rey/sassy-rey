@@ -82,7 +82,7 @@ input[type=text]
 ```
 
 
-### outline
+### o
 
 ```
 .box
@@ -90,12 +90,12 @@ input[type=text]
   +o
 ```
 
-### red
+### b
 
 ```
 .box
   // woo make the `background-color` of `.box` `red`
-  +red
+  +b
 ```
 
 ### text-shadow
