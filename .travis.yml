@@ -1,3 +1,5 @@
 language: sass
 before_install:
   - gem install sass
+script:
+  - sass -c _sassy-rey.sass
