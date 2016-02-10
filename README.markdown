@@ -132,3 +132,10 @@ h1
   // Woo give the `background-color` of `.box` a 10% tint
   background-color: tint(red, 10%)
 ```
+
+### transition
+
+```
+.box
+  +transition(background-color 0.5s linear)
+```
