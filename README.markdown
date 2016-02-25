@@ -60,7 +60,7 @@ body
 ### font-face
 
 ```
-+font-face(font-name-light, #{$fonts_dir}font-name/light)
++font-face(BrandonGrotesque, "#{$fonts-dir}brandon-grotesque/regular/regular")
 ```
 
 
